@@ -1,6 +1,6 @@
-## 🔍Red7Scanner
+## 🔍Red-Scanner
 
-## Red7Scanner is a lightweight Python-based tool designed to detect suspicious patterns and potential threats in open-source projects. It helps identify malicious behaviors such as data exfiltration, obfuscated code, and supply chain attacks hidden in public repositories.
+## Red-Scanner is a lightweight Python-based tool designed to detect suspicious patterns and potential threats in open-source projects. It helps identify malicious behaviors such as data exfiltration, obfuscated code, and supply chain attacks hidden in public repositories.
 
 ## 🚀 Installation & Usage
 
@@ -13,7 +13,7 @@ python3 Red-Scanner.py``
 
 # 🛡️ Features
 
-# Red7Scanner is capable of detecting:
+# Red-Scanner is capable of detecting:
 
 #  🧪 Fake GitHub repositories containing malicious code  
 # 💰 Cryptocurrency wallet stealers and keyloggers  
@@ -28,4 +28,6 @@ python3 Red-Scanner.py``
 
 ## If you encounter any bugs or issues, feel free to reach out to the developer via Telegram:
 
- t.me/Red_Rooted_ghost
+
+
+https://t.me/Red_Rooted_ghost
