@@ -1,35 +1,31 @@
-# Shai-Hulud-Detector
-Shai-Hulud Detector and Scanner
+## 🔍Red7Scanner
 
-A lightweight Python tool to detect Shai-Hulud v2 malware and supply chain threats in software projects.  
-It scans key files and directories for suspicious scripts, secrets, and malicious patterns — with risk classification and secure execution.
+## Red7Scanner is a lightweight Python-based tool designed to detect suspicious patterns and potential threats in open-source projects. It helps identify malicious behaviors such as data exfiltration, obfuscated code, and supply chain attacks hidden in public repositories.
 
-🚀 Features
+## 🚀 Installation & Usage
 
- 🔍 Scans package.json, pom.xml, Dockerfiles, GitHub Actions, .env, and more  
- 🧠 Detects suspicious scripts, secrets, and malware indicators  
- 🛡️ Secure by design: no shell injection, safe subprocesses, auto cleanup  
- 📊 Classifies risks as CRITICAL, HIGH, MEDIUM, or LOW  
- 📝 Generates detailed logs and reports
+## To get started, simply clone the repository and run the script:
+
+``git clone https://github.com/Dark-Ghost-x/Red7scanner
+cd Red7scanner
+python3 Red-Scanner.py``
 
 
-⚙️ Installation & Usage
-# Clone the repo
-git clone https://github.com/Dark-Ghost-x/Shai-Hulud-Detector.git
-cd Shai-Hulud-Detector
+# 🛡️ Features
 
-# Scan a Git repository
-python3 Shai-Hulud-Detector-and-Scanner --repo https://github.com/Dark-Ghost-x/sms-ch
+# Red7Scanner is capable of detecting:
 
-# Scan a zip archive
-python3 Shai-Hulud-Detector-and-Scanner --file project.zip
-
-# Scan a local directory
-python3 Shai-Hulud-Detector-and-Scanner --path /home/user/project
-
+#  🧪 Fake GitHub repositories containing malicious code  
+# 💰 Cryptocurrency wallet stealers and keyloggers  
+# 📤 Data exfiltration to external servers  
+# 🧬 Supply chain attacks via npm, pip, or gem packages  
+# 🕵️ Obfuscated malware hidden in open-source projects  
 
 
 ## ⚠️ Disclaimer
 
-## This is an early-stage tool and may contain bugs or false positives.  
-## If you encounter any issues, feel free to report them directly to the developer via Telegram.
+## Due to the sensitive nature of this tool, false positives may occur — especially when scanning functions that send requests to external servers. If you're familiar with the tool being analyzed and trust its behavior, you may safely ignore such warnings.
+
+## If you encounter any bugs or issues, feel free to reach out to the developer via Telegram:
+
+ t.me/Red_Rooted_ghost
